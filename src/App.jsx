@@ -1,14 +1,13 @@
-
 import './App.css'
+import Quiz from './components/Quiz'
 
 function App() {
 
-
-  return (
-    <>
-   <h1 className='text-6xl text-red-700' >hello</h1>
-    </>
-  )
+    return (
+        <div className="App">
+            <Quiz />
+        </div>
+    )
 }
 
 export default App
